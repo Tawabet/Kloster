@@ -1,26 +1,26 @@
 
 // nothing for now
 
-WA.sendChatMessage('Hello world', 'Mr Robot');
+WA.chat.sendChatMessage('Hello world', 'Mr Robot');
 
-WA.onEnterZone('xzone', () => {
-    WA.sendChatMessage("You are in 'xzone'!", 'Mr Robot');
-    WA.sendChatMessage("Date: " + Date.now(), 'Mr Robot');
+WA.room.onEnterZone('xzone', () => {
+    WA.chat.sendChatMessage("You are in 'xzone'!", 'Mr Robot');
+    WA.chat.sendChatMessage("Date: " + Date.now(), 'Mr Robot');
 })
 
 setTimeout(function() {
-    WA.sendChatMessage("Date: " + Date.now(), 'Mr Robot');
+    WA.chat.sendChatMessage("Date: " + Date.now(), 'Mr Robot');
 }, 3000);
 
-WA.onLeaveZone('xzone', () => {
-    WA.sendChatMessage("Goodbye!", 'Mr Robot');
+WA.room.onLeaveZone('xzone', () => {
+    WA.chat.sendChatMessage("Goodbye!", 'Mr Robot');
 })
 
 
 let helloWorldPopup;
 
 // Open the popup when we enter a given zone
-WA.onEnterZone('xzone', () => {
+WA.room.onEnterZone('xzone', () => {
     helloWorldPopup = WA.openPopup("welcome", 'Will<b>kommen!</b>', [{
         label: "Close",
         className: "primary",
@@ -41,7 +41,7 @@ WA.onEnterZone('xzone', () => {
 });
 
 // Close the popup when we leave the zone.
-WA.onLeaveZone('xzone', () => {
+WA.room.onLeaveZone('xzone', () => {
     helloWorldPopup.close();
 }); 
 
