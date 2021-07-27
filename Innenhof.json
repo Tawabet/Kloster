@@ -9,7 +9,7 @@
          "name":"start",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":45,
          "x":0,
          "y":0
@@ -27,7 +27,7 @@
                  "value":true
                 }],
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":45,
          "x":0,
          "y":0
@@ -967,16 +967,6 @@
          "spacing":0,
          "tilecount":32,
          "tileheight":32,
-         "tiles":[
-                {
-                 "id":26,
-                 "properties":[
-                        {
-                         "name":"start",
-                         "type":"string",
-                         "value":"Mitte"
-                        }]
-                }],
          "tilewidth":32
         }],
  "tilewidth":32,
