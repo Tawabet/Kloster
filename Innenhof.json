@@ -12,7 +12,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"Refektorium.json#startInnenhof"
+                 "value":"refektorium#startInnenhof"
                 }],
          "type":"tilelayer",
          "visible":true,

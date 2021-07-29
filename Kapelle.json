@@ -12,7 +12,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"Refektorium.json#startKapelle"
+                 "value":"refektorium#startKapelle"
                 }],
          "type":"tilelayer",
          "visible":true,

@@ -62,7 +62,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"Kloster.json#startRight"
+                 "value":"kloster#startRight"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -80,7 +80,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"Kapelle.json"
+                 "value":"kapelle"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -98,7 +98,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"Kloster.json#startMiddle"
+                 "value":"kloster#startMiddle"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -116,7 +116,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":"Innenhof.json"
+                 "value":"innenhof"
                 }],
          "type":"tilelayer",
          "visible":true,
