@@ -152,6 +152,12 @@
          "id":15,
          "name":"SkabLayer5",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"zone",
+                 "type":"string",
+                 "value":"SkabZone5"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":50,
@@ -164,6 +170,12 @@
          "id":16,
          "name":"SkabLayer6",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"zone",
+                 "type":"string",
+                 "value":"SkabZone6"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":50,
@@ -176,6 +188,12 @@
          "id":17,
          "name":"SkabLayer7",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"zone",
+                 "type":"string",
+                 "value":"SkabZone7"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":50,
@@ -188,6 +206,12 @@
          "id":18,
          "name":"SkabLayer8",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"zone",
+                 "type":"string",
+                 "value":"SkabZone8"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":50,
@@ -264,6 +288,12 @@
  "nextlayerid":19,
  "nextobjectid":13,
  "orientation":"orthogonal",
+ "properties":[
+        {
+         "name":"script",
+         "type":"string",
+         "value":"scriptKloster.js"
+        }],
  "renderorder":"right-down",
  "tiledversion":"1.7.1",
  "tileheight":32,
