@@ -1,6 +1,6 @@
 
 WA.room.onEnterZone('zProgramminfo', () => {
-    WA.nav.openCoWebSite("http://egyptainment.de/TdAe/Programm/index.html");
+    WA.nav.openCoWebSite("https://egyptainment.de/TdAe/Programm/index.html");
 });
 WA.room.onLeaveZone('zProgramminfo', () => {
     WA.nav.closeCoWebSite();
@@ -8,7 +8,7 @@ WA.room.onLeaveZone('zProgramminfo', () => {
 
 
 WA.room.onEnterZone('zRezepte', () => {
-    WA.nav.openCoWebSite("http://egyptainment.de/TdAe/Rezepte.html");
+    WA.nav.openCoWebSite("https://egyptainment.de/TdAe/Rezepte.html");
 });
 WA.room.onLeaveZone('zRezepte', () => {
     WA.nav.closeCoWebSite();
