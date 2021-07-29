@@ -290,6 +290,12 @@
          "id":22,
          "name":"SkabLayer9",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"zone",
+                 "type":"string",
+                 "value":"SkabZone9"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":150,
@@ -302,6 +308,12 @@
          "id":23,
          "name":"SkabLayer10",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"zone",
+                 "type":"string",
+                 "value":"SkabZone10"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":150,
@@ -314,6 +326,12 @@
          "id":24,
          "name":"SkabLayer11",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"zone",
+                 "type":"string",
+                 "value":"SkabZone11"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":150,
@@ -326,6 +344,12 @@
          "id":25,
          "name":"SkabLayer12",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"zone",
+                 "type":"string",
+                 "value":"SkabZone12"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":150,
@@ -338,6 +362,12 @@
          "id":26,
          "name":"SkabLayer15",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"zone",
+                 "type":"string",
+                 "value":"SkabZone15"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":150,
@@ -362,6 +392,12 @@
          "id":27,
          "name":"SkabLayer16",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"zone",
+                 "type":"string",
+                 "value":"SkabZone16"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":150,
