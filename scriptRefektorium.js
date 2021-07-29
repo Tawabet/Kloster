@@ -38,7 +38,9 @@ WA.room.onLeaveZone('zVortragssaal', () => {
     helloWorldPopup.close();
 }); 
 
+
 function skab(num, text) {
+    console.log("SkabZone hook für Skab "+num);
     WA.room.onEnterZone("SkabZone"+num, () => {
         helloWorldPopup = WA.ui.openPopup("Skab"+num, text, [{
             label: "OK",
@@ -46,11 +48,11 @@ function skab(num, text) {
             callback: (popup) => {
                 popup.close();
             }
-        },
         }]);
+    });
     WA.room.onLeaveZone("SkabZone"+num, () => {
         helloWorldPopup.close();
     }); 
 }
 
-skab(16, "Das hier ist Skarabäus 16");
+skab(16, "TSTSTSTSTSTSTST");
