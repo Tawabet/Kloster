@@ -31,10 +31,26 @@ WA.room.onEnterZone('zVortragssaal', () => {
             WA.nav.goToPage("https://lecture.senfcall.de/kat-ixa-d9n-xik");
         }
     }]);
-    console.log("popup: " + helloWorldPopup);
+//    console.log("popup: " + helloWorldPopup);
 });
 
 WA.room.onLeaveZone('zVortragssaal', () => {
     helloWorldPopup.close();
 }); 
 
+function skab(num, text) {
+    WA.room.onEnterZone("SkabZone"+num, () => {
+        helloWorldPopup = WA.ui.openPopup("Skab"+num, text, [{
+            label: "OK",
+            className: "primary",
+            callback: (popup) => {
+                popup.close();
+            }
+        },
+        }]);
+    WA.room.onLeaveZone("SkabZone"+num, () => {
+        helloWorldPopup.close();
+    }); 
+}
+
+skab(16, "Das hier ist Skarabäus 16");
