@@ -31,6 +31,7 @@ WA.room.onEnterZone('zVortragssaal', () => {
             WA.nav.goToPage("https://lecture.senfcall.de/kat-ixa-d9n-xik");
         }
     }]);
+    console.log("popup: " + helloWorldPopup);
 });
 
 WA.room.onLeaveZone('zVortragssaal', () => {
